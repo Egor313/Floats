@@ -15,8 +15,9 @@
 .header a {
     color: inherit;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
+
 }
 
 /* _____________________________________________ */
@@ -41,9 +42,10 @@
     height: 200px;
     vertical-align: top;
     overflow: hidden;
-    border: 1px solid #242424;
+    outline: 1px solid #242424;
     font-size: 20px;
     background: yellow;
+    
 
 }
 
@@ -51,7 +53,7 @@
     height: 100px;
     vertical-align: top;
     overflow: hidden;
-    border: 1px solid #242424;
+    outline: 1px solid #242424;
     font-size: 20px;
     background: blue;
 }
@@ -59,17 +61,17 @@
 
  .child > .child-second {
     display: inline-block;
-    height: 66px;
-    border: 1px solid #242424;
+    outline: 1px solid #242424;
     font-size: 20px;
     background: blue;
+    height: 66px;
 }
 
 .child-3 {
-
+    height: 100px;
     vertical-align: top;
     overflow: hidden;
-    border: 1px solid #242424;
+    outline: 1px solid #242424;
     font-size: 20px;
     background: darkred;
 }
@@ -79,6 +81,20 @@
     vertical-align: top;
     overflow: hidden;
 }
+
+.box-two > div + div {
+    width: 800px;
+}
+
+.third-box > div {
+    width: 800px;
+
+}
+
+.third-box > div + div {
+    width: 400px;
+}
+
 /* 
 .child > .child-third {
 
