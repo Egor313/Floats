@@ -57,11 +57,12 @@
     background: blue;
 }
 
-
+.child-second{
+    width: 800px;
+}
 .child > .child-second {
     display: inline-block;
     height: 66px;
-    width: 800px;
     border: 1px solid #242424;
     font-size: 20px;
     background: blue;
@@ -83,7 +84,12 @@
     overflow: hidden;
 }
 
+.child > .child-third {
 
+    height: 200px;
+    vertical-align: top;
+    overflow: hidden;
+}
 
 
 
