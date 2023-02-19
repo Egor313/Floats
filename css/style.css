@@ -8,7 +8,6 @@
 .header {
     background: #242424;
     color: #fff;
-    padding: 20px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -32,7 +31,7 @@
 .parent {
 
     font-size: 0;
-    padding: 20 px;
+
 }
 
 .child {
@@ -57,10 +56,8 @@
     background: blue;
 }
 
-.child-second{
-    width: 800px;
-}
-.child > .child-second {
+
+ .child > .child-second {
     display: inline-block;
     height: 66px;
     border: 1px solid #242424;
@@ -69,8 +66,7 @@
 }
 
 .child-3 {
-    height: 100px;
-    width: 800px;
+
     vertical-align: top;
     overflow: hidden;
     border: 1px solid #242424;
@@ -83,18 +79,13 @@
     vertical-align: top;
     overflow: hidden;
 }
-
+/* 
 .child > .child-third {
 
     height: 200px;
     vertical-align: top;
     overflow: hidden;
-}
-
-
-
-
-
+} */
 
 
 /* 
