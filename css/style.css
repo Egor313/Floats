@@ -145,10 +145,44 @@
 
 .floa-b-rg {
     background: darkturquoise;
-    height: 133px;
+    height: 133.5px;
     outline: 1px solid grey;
     /* float: right; */
 }
+
+.floa-c {
+    background: lightcoral;
+    width: 400px;
+    height: 400px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+.floa-c-sec {
+    background: darkblue;
+    width: 800px;
+    height: 200px;
+    outline: 1px solid grey;
+    float: left;
+    
+}
+
+.floa-c-third {
+    background: darkmagenta;
+    width: 400px;
+    height: 200px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+ .floa-third {
+    background: yellow;
+    width: 400px;
+    height: 100px;
+    outline: 1px solid grey;
+    float: left;
+}
+
 
 .clearfix::after {
     content: " ";
