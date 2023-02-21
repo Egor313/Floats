@@ -95,49 +95,89 @@
     width: 400px;
 }
 
-/* 
-.child > .child-third {
-
-    height: 200px;
-    vertical-align: top;
-    overflow: hidden;
-} */
-
-
-/* 
-.child {
-
-    vertical-align: top;
-    overflow: hidden;
-    border: 2px solid #242424;
-    width: 400px;
-    height: 200px;
+.center {
+    color: darkviolet;
+    text-align: center;
     font-size: 20px;
-    background: yellow;
-    padding: 20 px;
+    font-weight: bold;
+    padding: 20px 0;
 }
 
- .text-block {
-    display: inline-block;
-    height: 100px;
-    border: 2px solid #242424;
-    font-size: 16px;
-    text-align: justify;
-    background: blue;
+.center a {
+    color: inherit;
+    text-decoration: none;
 
 }
 
-.text-long {
-    display: inline-block;
-    height: 66px;
-    width: 800px;
-    border: 2px solid #242424;
-    font-size: 16px;
-    overflow: hidden;
-    text-align: justify;
-    background: blue;
-}
+/* Lesson-7 */
 
-.child-1 {
-    display: inline-block;
+/* .float {
+    background: lightblue;
+    padding: 50px 0; 
 } */
+
+.floa-a {
+    background: lawngreen;
+    width: 400px;
+    height: 400px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+.main-cont-b {
+    width: 800px;
+    height: 400px;
+   
+}
+
+.floa-b {
+    background: orange;
+    height: 200px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+.main-cont-b-rg {
+    width: 400px;
+}
+
+.floa-b-rg {
+    background: darkturquoise;
+    height: 133px;
+    outline: 1px solid grey;
+    float: right;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________________________________ */
