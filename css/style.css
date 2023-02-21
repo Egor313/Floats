@@ -127,6 +127,7 @@
 .main-cont-b {
     width: 800px;
     height: 400px;
+    float: left;
    
 }
 
@@ -134,18 +135,19 @@
     background: orange;
     height: 200px;
     outline: 1px solid grey;
-    float: left;
+    /* float: left; */
 }
 
 .main-cont-b-rg {
     width: 400px;
+    float: left;
 }
 
 .floa-b-rg {
     background: darkturquoise;
     height: 133px;
     outline: 1px solid grey;
-    float: right;
+    /* float: right; */
 }
 
 .clearfix::after {
